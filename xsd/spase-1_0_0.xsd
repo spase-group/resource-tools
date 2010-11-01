@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Automatically created based on the dictionary stored at http://www.spase-group.org -->
+<!-- Version: 1.0.0 -->
+<!-- Generated: 2008-03-21 13:24:06.087 -->
+<xsd:schema
+	      xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	      targetNamespace="http://www.spase-group.org/data/schema"
+	      xmlns="http://www.spase-group.org/data/schema"
+	      elementFormDefault="qualified">
+<!-- ================================
+      Dictionary Terms
+     ================================ -->
+      <xsd:element name="Spase" type="xsd:string">
+         <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+               
+            </xsd:documentation>
+         </xsd:annotation>
+      </xsd:element>
+<!-- ================================
+      Lists
+     ================================ -->
+<!-- ==========================
+Closed
+
+
+========================== -->
+      <xsd:simpleType name="enumClosed">
+         <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+               
+            </xsd:documentation>
+         </xsd:annotation>
+      <xsd:restriction base="xsd:string">
+      </xsd:restriction>
+</xsd:simpleType>
+<!-- ==========================
+Identifiers for indicating the method or
+
+
+========================== -->
+      <xsd:simpleType name="enumIdentifiersforindicatingthemethodor">
+         <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+               
+            </xsd:documentation>
+         </xsd:annotation>
+      <xsd:restriction base="xsd:string">
+      </xsd:restriction>
+</xsd:simpleType>
+<!-- ==========================
+Identifiers for permissions granted or d
+
+
+========================== -->
+      <xsd:simpleType name="enumIdentifiersforpermissionsgrantedord">
+         <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+               
+            </xsd:documentation>
+         </xsd:annotation>
+      <xsd:restriction base="xsd:string">
+      </xsd:restriction>
+</xsd:simpleType>
+<!-- ==========================
+Open
+
+
+========================== -->
+      <xsd:simpleType name="enumOpen">
+         <xsd:annotation>
+            <xsd:documentation xml:lang="en">
+               
+            </xsd:documentation>
+         </xsd:annotation>
+      <xsd:restriction base="xsd:string">
+<xsd:enumeration value="">
+      <xsd:annotation>
+         <xsd:documentation xml:lang="en">
+            
+         </xsd:documentation>
+      </xsd:annotation>
+</xsd:enumeration>
+      </xsd:restriction>
+</xsd:simpleType>
+<!-- ================================
+      Types
+     ================================ -->
+    <xsd:simpleType name="typeSequence">
+    <xsd:list itemType="xsd:integer"/>
+    </xsd:simpleType>
+</xsd:schema>

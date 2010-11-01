@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Spase-Tools</label>
+	</settings>
+	<users>
+		<user>
+			<path>spase-tools.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>..\src\app\app.jcp</path>
+		</project>
+		<project>
+			<path>..\src\collator\collator.jcp</path>
+		</project>
+		<project>
+			<path>..\src\downloader\downloader.jcp</path>
+		</project>
+		<project>
+			<path>..\src\grep\grep.jcp</path>
+		</project>
+		<project>
+			<path>..\src\profiler\profiler.jcp</path>
+		</project>
+		<project>
+			<path>..\src\refcheck\refcheck.jcp</path>
+		</project>
+		<project>
+			<path>..\src\validator\validator.jcp</path>
+		</project>
+	</projects>
+</workspace>
