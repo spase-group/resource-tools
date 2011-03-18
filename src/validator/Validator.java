@@ -54,7 +54,7 @@ public class Validator extends DefaultHandler
 {
 	private String	mVersion = "1.0.3";
 	
-	private String	mXsdVersion = "2.1.0";
+	private String	mXsdVersion = "2.2.0";
 	private String	mXsdUrl = null;
 	private boolean mVerbose = false;
 	private Schema	mSchema = null;

@@ -11,25 +11,25 @@
 	</users>
 	<projects>
 		<project>
-			<path>..\src\app\app.jcp</path>
-		</project>
-		<project>
-			<path>..\src\collator\collator.jcp</path>
-		</project>
-		<project>
-			<path>..\src\downloader\downloader.jcp</path>
-		</project>
-		<project>
-			<path>..\src\grep\grep.jcp</path>
-		</project>
-		<project>
-			<path>..\src\profiler\profiler.jcp</path>
+			<path>..\src\validator\validator.jcp</path>
 		</project>
 		<project>
 			<path>..\src\refcheck\refcheck.jcp</path>
 		</project>
 		<project>
-			<path>..\src\validator\validator.jcp</path>
+			<path>..\src\profiler\profiler.jcp</path>
+		</project>
+		<project>
+			<path>..\src\grep\grep.jcp</path>
+		</project>
+		<project>
+			<path>..\src\downloader\downloader.jcp</path>
+		</project>
+		<project>
+			<path>..\src\collator\collator.jcp</path>
+		</project>
+		<project>
+			<path>..\src\app\app.jcp</path>
 		</project>
 	</projects>
 </workspace>
