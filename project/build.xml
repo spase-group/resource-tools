@@ -86,10 +86,10 @@
         <mkdir dir="${jar.dir}"/>
         <jar destfile="${jar.dir}/${package.name}-${version}.jar">
         	   <fileset dir="${build.dir}/classes" />
-        	   <zipfileset src="${library.jar}/igpp/igpp-util-1.0.5.jar" includes="**/*.class"/>
-        	   <zipfileset src="${library.jar}/apache/commons-cli-1.1.jar" includes="**/*.class"/>
-        	   <zipfileset src="${library.jar}/apache/commons-net-1.4.1.jar" includes="**/*.class"/>
-        	   <zipfileset src="${library.jar}/igpp/igpp-web-1.0.3.jar" includes="**/*.class"/>
+        	   <zipfileset src="${library.jar}/igpp-util-1.0.5.jar" includes="**/*.class"/>
+        	   <zipfileset src="${library.jar}/commons-cli-1.1.jar" includes="**/*.class"/>
+        	   <zipfileset src="${library.jar}/commons-net-1.4.1.jar" includes="**/*.class"/>
+        	   <zipfileset src="${library.jar}/igpp-web-1.0.3.jar" includes="**/*.class"/>
             <manifest> 
                 <!-- Make an executable jar - run main-class -->
                 <attribute name="Main-Class" value="${main-class}"/>
