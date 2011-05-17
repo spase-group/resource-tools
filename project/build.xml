@@ -78,7 +78,7 @@
     <!-- Compile source code -->
     <target name="compile">
         <mkdir dir="${classes.dir}"/>
-        <javac debug="true" srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath"/>
+        <javac debug="true" srcdir="${src.dir}" destdir="${classes.dir}"  extdirs="${release.jar}" />
     </target>
 
     <!-- Create jar file for classes -->
@@ -216,7 +216,6 @@
 
     <!-- Copy files to the local file system -->
     <target name="local" >
-        <copy todir="${release.local}" file="${jar.dir}/${package.name}-${version}.jar" />
         <copy todir="${release.jar}" file="${jar.dir}/${package.name}-${version}.jar" />
     </target>
 
