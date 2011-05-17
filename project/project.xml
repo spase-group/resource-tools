@@ -11,7 +11,7 @@
     <property name="copyright"    value="Copyright &#169; 2008-2009 Regents University of California. All Rights Reserved." />
     <property name="main-class"   value="org.spase.tools.App" />
 
-    <property name="library.jar"  value="../../../jar" />
+    <property name="library.jar"  value="/projects/jar" />
     
     <property name="release.user"  value="tking" />
     <property name="release.host"  value="release.igpp.ucla.edu" />
