@@ -1,2 +1,0 @@
-C:\Projects\spase\java\tools\src\profiler\Profiler.java
-C:\Projects\spase\java\tools\src\profiler\ResourceProfile.java
