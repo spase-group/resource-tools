@@ -54,20 +54,25 @@ public class Validator extends DefaultHandler
 {
 	private String	mVersion = "1.0.3";
 	
-	private String	mXsdVersion = "2.2.0";
+	private String	mXsdVersion = null;
 	private String	mXsdUrl = null;
 	private boolean mVerbose = false;
 	private Schema	mSchema = null;
 	private boolean mRecurse = false;
+	private boolean mErrors = false;
 	String	mExtension = ".xml";
 
 	// For parsering	
 	private int		mLine;
+	private int		mFileCount = 0;
+	private int		mFileFailed = 0;
 	private String	mLastError = "";
 	private String	mLastWarning = "";
 	private String mPathName = "";
+	private String mStatus = "[OK]";
 	private boolean mPrintName = true;
-			
+	private boolean mValid = true;
+	
 	// create the Options
 	Options mOptions = new Options();
 
@@ -78,6 +83,7 @@ public class Validator extends DefaultHandler
 		mOptions.addOption( "s", "schema", true, "URL or Path to the XML schema document (XSD) to use for checking files.");
 		mOptions.addOption( "n", "version", true, "Version of standard schema to use available from www.spase-group.org (default: " + mXsdVersion + ")..");
 		mOptions.addOption( "r", "recurse", false, "Recursively process all files starting at path.");
+		mOptions.addOption( "e", "errors", false, "Display line only if errors are found.");
 		mOptions.addOption( "x", "ext", true, "File name extension for filtering files when processing folders (default: " + mExtension + ")");
 	}
 		
@@ -89,9 +95,6 @@ public class Validator extends DefaultHandler
 	 *     Validate url version
 	 * </blockquote>
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
 	public static void main(String args[])
@@ -110,6 +113,7 @@ public class Validator extends DefaultHandler
 			if(line.hasOption("h")) me.showHelp();
 			if(line.hasOption("v")) me.mVerbose = true;
 			if(line.hasOption("r")) me.mRecurse = true;
+			if(line.hasOption("e")) me.mErrors = true;
 			if(line.hasOption("s")) me.mXsdUrl = line.getOptionValue("s");
 			if(line.hasOption("n")) me.mXsdVersion = line.getOptionValue("n");
 			if(line.hasOption("x")) me.mExtension = line.getOptionValue("x");
@@ -118,11 +122,17 @@ public class Validator extends DefaultHandler
 			if(me.mXsdUrl != null) {	// Load schema from "local" source
 				me.loadSchema(me.mXsdUrl);
 			} else {	// Load from network source - using version number
-				me.loadSchemaFromVersion(me.mXsdVersion);
+				if(me.mXsdVersion != null) me.loadSchemaFromVersion(me.mXsdVersion);
 			}
 			
 			// Process all files
-			for(String p : line.getArgs()) { me.validate(p); }
+			for(String p : line.getArgs()) {
+				me.mFileCount = 0;
+				me.mFileFailed = 0;
+				System.out.println("Validating: " + p);
+				me.validate(p); 
+				System.out.println("[INFO] scanned: " + me.mFileCount + " file(s); failures: " + me.mFileFailed);
+			}
 			
 		} catch( ParseException e ) { // oops, something went wrong
 	      System.out.println( "Parsing failed.  Reason: " + e.getMessage() );
@@ -165,9 +175,6 @@ public class Validator extends DefaultHandler
     /** 
 	 * Set the schema location based on version number to use.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 10/07/08
 	 * @since		1.0
 	 */
  	public void loadSchemaFromVersion(String version) {
@@ -178,9 +185,6 @@ public class Validator extends DefaultHandler
     /** 
 	 * Load a schema for validating an XML document.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 **/
 	public void loadSchema(String xsdUrl)
@@ -210,21 +214,18 @@ public class Validator extends DefaultHandler
 	/** 
 	 * Perform a validation on an XML document or all documents in
 	 * a directory sing the the currently loaded schema. 
-	 * Optinally scan a directory recursively.
+	 * Optionally scan a directory recursively.
 	 * Errors are caught and output with the line number where the error
 	 * occurred. After processing the XML document is output in an table format
 	 * with each line numbered and those lines with errors highlighted.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 **/
 	public void validate(String path)
 		throws Exception
 	{
 		if(path == null) return;
-				
+		
 		// File name filter
 	   File filePath = new File(path);
 	   File[] list = new File[1];
@@ -273,22 +274,25 @@ public class Validator extends DefaultHandler
 	 * occurred. After processing the XML document is output in an table format
 	 * with each line numbered and those lines with errors highlighted.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
 	public void validateFile(String path)
 		throws Exception
 	{        
-		boolean	good = true;
-		boolean	printName = true;
 		InputStream	inputStream = null;
+		
+		mFileCount++;
 		
 		// Use a validating parser with namespaces
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		factory.setValidating(false);	// 'false' so we can validate with our specified schema
 		factory.setNamespaceAware(true);
+		
+		if(mXsdVersion == null) {	// Use version defined in document
+			String xsdVersion = getDeclaredVersion(path);
+			loadSchemaFromVersion(xsdVersion);
+		}
+		
 		factory.setSchema(mSchema);
 		
 		// Validate the file
@@ -302,16 +306,19 @@ public class Validator extends DefaultHandler
 			inputStream = new FileInputStream(path);
 		}
 		
+		mValid = true;	// Always an optimistic start.
 		mPathName = path;
-		if(mVerbose) { print(mPathName + " "); mPrintName = false; }
+		if(mVerbose) { println(mPathName); mPrintName = false; }
 		
 		try {
 			Reader reader = new InputStreamReader(inputStream, "UTF-8");
-     	   InputSource source = new InputSource(reader);
-  	      source.setEncoding("UTF-8");
+     	    InputSource source = new InputSource(reader);
+  	        source.setEncoding("UTF-8");
 			
 			// Parse the input
 			SAXParser saxParser = factory.newSAXParser();
+			saxParser.getXMLReader().setErrorHandler(this);
+			
 			// saxParser.setProperty("http://xml.org/sax/features/validation", true);
 			// saxParser.parse(inputStream, this);
 			saxParser.parse(source, this);
@@ -320,33 +327,51 @@ public class Validator extends DefaultHandler
 			if(mPrintName) { println(mPathName); mPrintName = false; }
 			println("Line " + err.getLineNumber() + " " + err.getMessage());
 			println("");
-			good = false;
+			mValid = false;
 		} catch (SAXException err) {
 			// Error generated by this application
 			// (or a parser-initialization error)
 			if(mPrintName) { println(mPathName); mPrintName = false; }
 			println("Error: " + err.getMessage());
 			println("");
-			good = false;
-		} catch (ParserConfigurationException pce) {
-			// Parser with specified options can't be built
-			if(mPrintName) { println(mPathName); mPrintName = false; }
-			pce.printStackTrace();
+			mValid = false;
 		} catch (IOException err) {
 			// I/O error
 			if(mPrintName) { println(mPathName); mPrintName = false; }
 			println("Error: " + err.getMessage());
 			println("");
-			good = false;
+			mValid = false;
+		} catch (ParserConfigurationException pce) {
+			// Parser with specified options can't be built
+			if(mPrintName) { println(mPathName); mPrintName = false; }
+			pce.printStackTrace();
 		}
 		
 		inputStream.close();
 		
-		if(good) { if(mVerbose) println("[OK]"); }
-		else { println("[FAILED]"); }
+		if(mValid) { if(mVerbose || (! mErrors) ) println("[OK] " + mPathName); }
+		else { mStatus = "[FAILED]"; mFileFailed++; println("[FAILED] " + mPathName); }
 		
 		mPathName = "";
     }
+	
+	/** 
+	 * Retrieve the schema version from the XML document
+	 */
+	public String getDeclaredVersion(String path)
+	{
+		ArrayList<Pair> list = new ArrayList<Pair>();
+		String version = null;
+		
+		try {
+			XMLGrep.makeIndex(list, XMLGrep.parse(path), "");
+			version = XMLGrep.getFirstValue(list, "/Spase/Version", null);
+		} catch(Exception e) {
+			// Do nothing
+		}
+		
+		return version;
+	}
 
     //===========================================================
     // SAX DocumentHandler methods
@@ -356,9 +381,6 @@ public class Validator extends DefaultHandler
 	 * Called by the XML parser when the URL for document to validate
 	 * is set.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
     public void setDocumentLocator(Locator l)
@@ -372,9 +394,6 @@ public class Validator extends DefaultHandler
     /** 
 	 * Called by the XML parser at the start or processing.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
     public void startDocument()
@@ -386,9 +405,6 @@ public class Validator extends DefaultHandler
     /** 
 	 * Called by the XML parser when validation is complete.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
 	public void endDocument()
@@ -399,9 +415,6 @@ public class Validator extends DefaultHandler
     /** 
 	 * Called by the XML parser when a opening element is encountered.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
     public void startElement(String namespaceURI,
@@ -415,9 +428,6 @@ public class Validator extends DefaultHandler
     /** 
 	 * Called by the XML parser when a closing element is encountered.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
     public void endElement(String namespaceURI,
@@ -431,9 +441,6 @@ public class Validator extends DefaultHandler
     /** 
 	 * Called by the XML parser when a character is encountered
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
     public void characters(char buf[], int offset, int len)
@@ -444,9 +451,6 @@ public class Validator extends DefaultHandler
     /** 
 	 * Called by the XML parser when a processing instruction is encountered.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
     public void processingInstruction(String target, String data)
@@ -461,9 +465,6 @@ public class Validator extends DefaultHandler
     /** 
 	 * Called by the XML parser when a validation error occurs.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
     public void error(SAXParseException err)
@@ -478,14 +479,32 @@ public class Validator extends DefaultHandler
     	println(buffer);
     	println("");
     	mLastError = buffer;
+    	mValid = false;
+    }
+
+    /** 
+	 * Called by the XML parser when a fatal error occurs.
+	 *
+	 * @since		1.0
+	 */
+    public void fatalError(SAXParseException err)
+    throws SAXParseException
+    {
+    	String buffer = "";
+    	
+  		if(mPrintName) { println(mPathName); mPrintName = false; }
+		buffer = "Line " + err.getLineNumber() + ": " + err.getMessage();
+    	if(mLastError.compareTo(buffer) == 0) return;	// Repeated error
+    	
+    	println(buffer);
+    	println("");
+    	mLastError = buffer;
+    	mValid = false;
     }
 
     /** 
 	 * Called by the XML parser when a validation warning occurs.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0, 07/18/06
 	 * @since		1.0
 	 */
     public void warning(SAXParseException err)
@@ -503,7 +522,7 @@ public class Validator extends DefaultHandler
     }
     
     //===========================================================
-    // Utlity functions
+    // Utility functions
     //===========================================================
 	public void println(String line)
 	{

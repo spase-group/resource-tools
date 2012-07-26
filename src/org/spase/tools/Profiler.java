@@ -68,9 +68,6 @@ public class Profiler
    /** 
 	 * Command-line interface.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 **/
 	public static void main(String args[])
@@ -140,8 +137,6 @@ public class Profiler
  	/**
 	 * Display help information.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
     **/
 	public void showHelp()
@@ -176,8 +171,6 @@ public class Profiler
     *
     * @param path		the pathname of the file to parse.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
     **/
 	public void makeProfileFromFile(String path)
@@ -203,8 +196,6 @@ public class Profiler
     *
     * @param path		the pathname of the file to parse.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
     **/
 	public void makeProfile(String path)
@@ -292,8 +283,6 @@ public class Profiler
     *
     * @param profile		the {ResourceProfile} to update.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
     **/
 	public void setInstrumentInfo(ResourceProfile profile)
@@ -323,8 +312,6 @@ public class Profiler
     *
     * @param profile		the {ResourceProfile} to update.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
     **/
 	public void setObservatoryInfo(ResourceProfile profile)
@@ -372,8 +359,6 @@ public class Profiler
     *
     * @return          a populated @link{ResourceProfile}
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
     **/
 	public ResourceProfile makeResourceProfile(ArrayList<Pair> list, String version, String resourceTagName, int startAt, int endAt)

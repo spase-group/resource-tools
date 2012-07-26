@@ -4,7 +4,7 @@
    See "build.xml" for how each property influences the build.
 -->
 <project name="project-config" basedir="." default="...">
-    <property name="version"        value="2.0.0" />
+    <property name="version"        value="2.0.2" />
     <property name="package.title"  value="SPASE Tools" />
     <property name="package.name" value="spase-tools" />
     <property name="package.vendor" value="UCLA/IGPP" />

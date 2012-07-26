@@ -17,8 +17,6 @@ public class Pair<L, R> {
 	/** 
 	* Creates an instance of pair with a "left" value and a "right" value. 
 	*
-	* @author Todd King
-	* @author UCLA/IGPP
 	* @since           1.0
 	**/
 	public Pair(final L left, final R right) {
@@ -30,8 +28,6 @@ public class Pair<L, R> {
 	* Creates an instance of pair with a "left" value and a "right" value. 
 	* The type of each value can be defined.
 	*
-	* @author Todd King
-	* @author UCLA/IGPP
 	* @since           1.0
 	**/
 	public static <A, B> Pair<A, B> create(A left, B right) {
@@ -41,8 +37,6 @@ public class Pair<L, R> {
 	/** 
 	* Returns the "right" element of the pair. 
 	*
-	* @author Todd King
-	* @author UCLA/IGPP
 	* @since           1.0
 	**/
 	public R getRight() {
@@ -52,8 +46,6 @@ public class Pair<L, R> {
 	/** 
 	* Returns the "right" element of the pair. 
 	*
-	* @author Todd King
-	* @author UCLA/IGPP
 	* @since           1.0
 	**/
 	public L getLeft() {
@@ -68,8 +60,6 @@ public class Pair<L, R> {
    * @return          <code>true</code> if the content is the same;
    *                  <code>false</code> otherwise.
    *
-	* @author Todd King
-	* @author UCLA/IGPP
 	* @since           1.0
 	**/
 	public final boolean equals(Object o) {
@@ -88,8 +78,6 @@ public class Pair<L, R> {
    * @return          <code>true</code> if the content is the same;
    *                  <code>false</code> otherwise.
    *
-	* @author Todd King
-	* @author UCLA/IGPP
 	* @since           1.0
 	**/
 	public static final boolean equal(Object o1, Object o2) {
@@ -106,8 +94,6 @@ public class Pair<L, R> {
 	*
    * @return          the hash code value.
    *
-	* @author Todd King
-	* @author UCLA/IGPP
 	* @since           1.0
 	**/
 	public int hashCode() {

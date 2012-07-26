@@ -83,9 +83,6 @@ public class Downloader
    /** 
 	 * Command-line interface.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 **/
 	public static void main(String args[])
@@ -130,9 +127,6 @@ public class Downloader
 	/**
 	 * Display help information.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 **/
 	public void showHelp()
@@ -180,9 +174,6 @@ public class Downloader
     * @param startDate		the start date of the data to include in the package. If "null" there is no limit.
     * @param stopDate		the stop date of the data to include in the package. If "null" there is no limit.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 **/
    public void download(String pathName, String resourceID, String startDate, String stopDate)
@@ -207,9 +198,6 @@ public class Downloader
     * @param startDate		the start date of the data to include in the package. If "null" there is no limit.
     * @param stopDate		the stop date of the data to include in the package. If "null" there is no limit.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 **/
    public void download(OutputStream output, String resourceID, String startDate, String stopDate)
@@ -257,7 +245,6 @@ public class Downloader
 	 *
     * @param pathName		the pathname to the file to write the response of the download request.
     *
-	 * @version     1.0
 	 * @since		1.0
 	 **/
 	public void checkFile(String pathName)
@@ -318,7 +305,6 @@ public class Downloader
 	 *
     * @param pathName		the pathname to the file to write the response of the download request.
     *
-	 * @version     1.0
 	 * @since		1.0
 	 **/
    public void showMetrics(String pathName)
@@ -354,7 +340,6 @@ public class Downloader
 	 *
     * @param pathName		the pathname to the file to write the response of the download request.
     *
-	 * @version     1.0
 	 * @since		1.0
 	 **/
    public void showAcknowledgement(String pathName)

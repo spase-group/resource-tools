@@ -20,7 +20,7 @@ public class App
 
 	boolean	mVerbose = false;
 	
-	String mCommands[] = {"collator", "downloader", "xmlgrep", "profiler", "refcheck", "validator" };
+	String mCommands[] = {"collator", "downloader", "xmlgrep", "profiler", "refcheck", "validator", "reporter" };
 	
 	public App() 
 	{
@@ -29,9 +29,6 @@ public class App
    /** 
 	 * Command-line interface.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 **/
 	public static void main(String args[])
@@ -84,9 +81,6 @@ public class App
 	/**
 	 * Display help information.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 **/
    public void showHelp()

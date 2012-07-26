@@ -1,0 +1,25 @@
+Validating: /var/www/spase.dev/metadata/tools/../VMO
+/var/www/spase.dev/metadata/VMO/NumericalData/FAST/Ephemeris/PT1M.xml
+Line 1: Content is not allowed in prolog.
+
+Line 1 Content is not allowed in prolog.
+
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/FAST/Ephemeris/PT1M.xml
+Line 427: cvc-enumeration-valid: Value 'SoundSpeed' is not facet-valid with respect to enumeration '[AlfvenMachNumber, AverageChargeState, Counts, Energy, EnergyDensity, EnergyFlux, FlowSpeed, Gyrofrequency, HeatFlux, Mass, MassDensity, NumberDensity, NumberFlux, PhaseSpaceDensity, PlasmaBeta, Plasmafrequency, Pressure, SonicMachNumber, Temperature, ThermalSpeed, Velocity]'. It must be a value from the enumeration.
+
+Line 427: cvc-type.3.1.3: The value 'SoundSpeed' of element 'ParticleQuantity' is not valid.
+
+Line 443: cvc-enumeration-valid: Value 'AlfvenSpeed' is not facet-valid with respect to enumeration '[AlfvenMachNumber, AverageChargeState, Counts, Energy, EnergyDensity, EnergyFlux, FlowSpeed, Gyrofrequency, HeatFlux, Mass, MassDensity, NumberDensity, NumberFlux, PhaseSpaceDensity, PlasmaBeta, Plasmafrequency, Pressure, SonicMachNumber, Temperature, ThermalSpeed, Velocity]'. It must be a value from the enumeration.
+
+Line 443: cvc-type.3.1.3: The value 'AlfvenSpeed' of element 'ParticleQuantity' is not valid.
+
+Line 459: cvc-enumeration-valid: Value 'MagnetosonicSpeed' is not facet-valid with respect to enumeration '[AlfvenMachNumber, AverageChargeState, Counts, Energy, EnergyDensity, EnergyFlux, FlowSpeed, Gyrofrequency, HeatFlux, Mass, MassDensity, NumberDensity, NumberFlux, PhaseSpaceDensity, PlasmaBeta, Plasmafrequency, Pressure, SonicMachNumber, Temperature, ThermalSpeed, Velocity]'. It must be a value from the enumeration.
+
+Line 459: cvc-type.3.1.3: The value 'MagnetosonicSpeed' of element 'ParticleQuantity' is not valid.
+
+Line 500: cvc-enumeration-valid: Value 'MagnetosonicMachNumber' is not facet-valid with respect to enumeration '[AlfvenMachNumber, AverageChargeState, Counts, Energy, EnergyDensity, EnergyFlux, FlowSpeed, Gyrofrequency, HeatFlux, Mass, MassDensity, NumberDensity, NumberFlux, PhaseSpaceDensity, PlasmaBeta, Plasmafrequency, Pressure, SonicMachNumber, Temperature, ThermalSpeed, Velocity]'. It must be a value from the enumeration.
+
+Line 500: cvc-type.3.1.3: The value 'MagnetosonicMachNumber' of element 'ParticleQuantity' is not valid.
+
+[FAILED] /var/www/spase.dev/metadata/VMO/Catalog/BS_IMP8.xml
+      [FAILED] scanned: 1736 file(s); failures: 2

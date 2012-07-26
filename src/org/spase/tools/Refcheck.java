@@ -55,9 +55,16 @@ public class Refcheck
 	boolean	mCheckURL = false;
 	boolean	mCheckID = false;
 	String	mDirectory = null;
+	private boolean mErrors = false;
 	
 	// For Local resource ID lists
 	ArrayList<String>	mLocalList = new ArrayList<String>();
+	
+	int	mFileCount = 0;
+	int mIDCount = 0;
+	int mIDFailed = 0;
+	int mURLCount = 0;
+	int mURLFailed = 0;
 	
 	// create the Options
 	Options mOptions = new Options();
@@ -73,6 +80,7 @@ public class Refcheck
 		mOptions.addOption( "s", "service", true, "The URL to the registry service to look-up resource identifiers (default: " + mRegistry + ").");
 		mOptions.addOption( "x", "ext", true, "File name extension for filtering files when processing folders (default: " + mExtension + ")");
 		mOptions.addOption( "d", "dir", true, "Directory containing local resource descriptions. Directory is recursively searched for resource descriptions.");
+		mOptions.addOption( "e", "errors", false, "Display line only if errors are found.");
 	}
 		
    /** 
@@ -98,20 +106,29 @@ public class Refcheck
 			if(line.hasOption("l")) me.mListOnly = true;
 			if(line.hasOption("u")) me.mCheckURL = true;
 			if(line.hasOption("i")) me.mCheckID = true;
+			if(line.hasOption("e")) me.mErrors = true;
 			if(line.hasOption("x")) me.mExtension = line.getOptionValue("x");
 			if(line.hasOption("s")) me.mRegistry = line.getOptionValue("s");
 			if(line.hasOption("d")) me.mDirectory = line.getOptionValue("d");
 			
-			if(me.mVerbose) System.out.println("Resolver service: " + me.mRegistry);
-				
+			System.out.println("[INFO] Resolving IDs with service at: " + me.mRegistry);
+			
 			// Load local descriptions
 			if(me.mDirectory != null) {
-				if(me.mVerbose) System.out.println("Loading local IDs from: " + me.mDirectory);
+				System.out.println("[INFO] Loading local IDs from: " + me.mDirectory);
 				me.loadResourceIndex(me.mDirectory);
 			}
-				
+			
+			System.out.println("");
+			
 			// Load resource at path
-			for(String p : line.getArgs()) { System.out.println("\n"); me.check(p); }
+			for(String p : line.getArgs()) { System.out.println(""); me.check(p); }
+			
+			System.out.println("[INFO] scanned: " + me.mFileCount + " file(s); " 
+					+ me.mIDCount + " ID(s); " + me.mURLCount + " URL(s)");
+			System.out.println("[INFO] ID failures: " + me.mIDFailed
+					+ "; URL failures: " + me.mURLFailed
+					);
 		} catch( ParseException e ) { // oops, something went wrong
 	      System.err.println( "Parsing failed.  Reason: " + e.getMessage() );
 		} catch(Exception e) {
@@ -122,8 +139,6 @@ public class Refcheck
 	/**
 	 * Display help information.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	**/
 	public void showHelp()
@@ -163,12 +178,10 @@ public class Refcheck
 	 * Extract each resource description is then extracted and
 	 * re-written in the location defined by the Resource Identifier.
 	 * The files with the given extension is parsed for resource descriptions.
-	 * The path to the resources can be recusively searched.
+	 * The path to the resources can be recursively searched.
     *
     * @param path     the pathname of the file to parse.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	**/
 	public void check(String path)
@@ -193,6 +206,7 @@ public class Refcheck
 		String resourcePath;
 		if(list != null) {	// Found some files to process
 			for(File item : list) {
+				mFileCount++;
 				resourcePath = item.getCanonicalPath();
 				try {
 					checkFile(resourcePath);
@@ -224,8 +238,6 @@ public class Refcheck
     *
     * @param path     the pathname of the file to parse.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	**/
 	public void checkFile(String path)
@@ -242,19 +254,26 @@ public class Refcheck
 			ArrayList<Pair> docIndex = XMLGrep.makeIndex(doc, "");
 			 		
 			if(mCheckID || mListOnly) {
+		 		ArrayList<String>	selfIDList = igpp.util.Text.uniqueList(XMLGrep.getValues(docIndex, ".*/ResourceID"), true);
 		 		ArrayList<String>	idList = igpp.util.Text.uniqueList(XMLGrep.getValues(docIndex, ".*/.*ID"), true);
+		 		ArrayList<String>	priorIDList = igpp.util.Text.uniqueList(XMLGrep.getValues(docIndex, ".*/PriorID"), true);
 				if(idList != null) {
 					for(String id : idList) {
+						if(isInList(id, priorIDList)) continue;	// skip
+						if(isInList(id, selfIDList)) continue;	// skip
+						mIDCount++;
 						show = false;
 						if(mVerbose) show = true;
-						if(!mListOnly) {	// Perform lookup check
+						if( ! mErrors) show = true;	// Not restricted to errors.
+						if( ! mListOnly) {	// Perform lookup check
 							if(mCheckID) {
 								if(lookupID(id)) {
-									if(mVerbose) prefix = "     [VALID] ";
+									prefix = "     [VALID] ";
 								} else {
 									show = true;
 									ok = false;
 									prefix = "   [INVALID] ";
+									mIDFailed++;
 								}
 							} else {
 								prefix = "   [SKIPPED] ";
@@ -270,16 +289,19 @@ public class Refcheck
 				ArrayList<String> urlList = igpp.util.Text.uniqueList(XMLGrep.getValues(docIndex, ".*/URL"), true);
 				if(urlList != null) {
 					for(String url : urlList) {
+						mURLCount++;
 						show = false;
 						if(mVerbose) show = true;
-						if(!mListOnly) {	// Perform URL check
+						if( ! mErrors) show = true;	// Not restricted to errors.
+						if( ! mListOnly) {	// Perform URL check
 							if(mCheckURL) {
 								if(checkURL(url)) {
-									if(mVerbose) prefix = "     [VALID] ";
+									prefix = "     [VALID] ";
 								} else {
 									show = true;
 									ok = false;
 									prefix = "   [INVALID] ";
+									mURLFailed++;
 								}
 							} else {
 								prefix = "   [SKIPPED] ";
@@ -290,12 +312,16 @@ public class Refcheck
 				}
 			}
 
+			show = false;
+			if(mErrors) show = true;
+			if(mListOnly) show = true;
 			if(ok) { 
-				if(!mListOnly) System.out.print("[OK]"); 
-			} else { 
-				System.out.print("[FAILED]"); 
+				if(mErrors) show = false; 	// Restricted to errors.
+				if( (! mListOnly) && show) System.out.print("[OK]");
+			}  else {
+				System.out.print("[FAILED]");
 			}
-			System.out.println(" " + path);
+			if(show) System.out.println(" " + path);
 		} catch( IOException ioe ) {
 		  ioe.printStackTrace(); 
 		} catch(Exception e) {
@@ -310,8 +336,6 @@ public class Refcheck
     *
     * @param path     the pathname of the file to parse.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	**/
 	public void loadResourceIndex(String path)
@@ -366,8 +390,6 @@ public class Refcheck
     *
 	 * @return <code>true</code> if valid, <code>false</code> otherwise.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	**/
 	public boolean lookupID(String id)
@@ -382,10 +404,11 @@ public class Refcheck
 		
 		// Query server
 		try {
-			Document doc = XMLGrep.parse(mRegistry + "?c=yes&i=" + id);
+			String link = mRegistry + "?c=yes&i=" + id;
+			if(mVerbose) System.out.println("Calling: " + link);
+			Document doc = XMLGrep.parse(link);
 			ArrayList<Pair> docIndex = XMLGrep.makeIndex(doc, "");
-			// XMLGrep.writeXMLTagged(doc);
-	 		// if(XMLGrep.findFirstElement(docIndex, "Known", 0) != -1) valid = true;
+			if(mVerbose) System.out.println("Response: " + XMLGrep.getFirstValue(docIndex, ".*/Known", null));
 	 		if(XMLGrep.getFirstValue(docIndex, ".*/Known", null) != null) valid = true;
 		} catch(Exception e) {
 			valid = false;
@@ -403,8 +426,6 @@ public class Refcheck
     *
     * @return <code>true</code> if valid, <code>false</code> otherwise.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	**/
 	public boolean checkURL(String urlSpec)
@@ -433,14 +454,12 @@ public class Refcheck
 	}
 
 	/** 
-	 * Check an FTP protocol URL by attempting to establish an annonymous connection.
+	 * Check an FTP protocol URL by attempting to establish an anonymous connection.
 	 *
     * @param urlSpec     the URL of an FTP request.
     *
 	 * @return <code>true</code> if valid, <code>false</code> otherwise.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	**/
 	public boolean checkFTP(String urlSpec)
@@ -486,5 +505,16 @@ public class Refcheck
 		}
 		
 		return status;	
+	}
+	
+	public boolean isInList(String value, ArrayList<String> list) {
+		if(value == null) return false;
+		if(list == null) return false;
+		
+		for(String item : list) {
+			if(item.equals(value)) return true;
+		}
+		
+		return false;
 	}
 }

@@ -47,9 +47,6 @@ public class ResourceProfile
     /** 
 	 * Command-line interface.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 */
 	public static void main(String args[])
@@ -64,8 +61,6 @@ public class ResourceProfile
     *
     * @param out		the @link{PrintStream} to emit the XML document.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
     **/
    public void printSolrProfile(PrintStream out)
@@ -103,8 +98,6 @@ public class ResourceProfile
 	/** 
 	 * Set undefined values to normalized states.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
     **/
 	public void normalize()
@@ -131,8 +124,6 @@ public class ResourceProfile
 	 * This will replace all spaces with a "T" and ensure
 	 * that the string ends with a "Z".
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
     **/
    public String fixTime(String time) {

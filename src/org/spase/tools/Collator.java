@@ -72,9 +72,6 @@ public class Collator
    /** 
 	 * Command-line interface.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 **/
 	public static void main(String args[])
@@ -110,9 +107,6 @@ public class Collator
 	/**
 	 * Display help information.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
-	 * @version     1.0
 	 * @since		1.0
 	 **/
    public void showHelp()
@@ -175,8 +169,6 @@ public class Collator
     *
     * @param path     the pathname of the file to distill.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	**/
 	public void distill(String path)
@@ -234,8 +226,6 @@ public class Collator
 	 *
 	 * @param pathName  the path and file name to the file to process.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	 **/
 	public void separate(String pathName)
@@ -258,8 +248,6 @@ public class Collator
 	 *
 	 * @param node the starting node in a Document.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	 **/
 	public void separate(Node node) 
@@ -291,8 +279,6 @@ public class Collator
 	 *
 	 * @param node	the {@link Node} to process.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	 **/
 	public String getFullTag(Node node)
@@ -316,8 +302,6 @@ public class Collator
 	 * @param node   the {@link Node} to start the search for the tag.
 	 * @param tag	  the name of the tag to find.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	 **/
 	public String getNodeValue(Node node, String tag)
@@ -351,8 +335,6 @@ public class Collator
 	 *
 	 * @param node    the {@link Node} for which the text content will be extracted.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	 **/
 	public String getValue(Node node)
@@ -384,8 +366,6 @@ public class Collator
 	 * @param spaseTag  the text for the opening Spase tag.
 	 * @param version		the version information for the resource.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	 **/
 	public void extractResource(Node parent, String spaseTag, String version)
@@ -433,8 +413,6 @@ public class Collator
 	 * @param out	the {@link PrintStream} to write the formatted text to.
 	 * @param node	the {@link Node} where the extraction is to begin.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	 **/
 	public void extractTree(PrintStream out, Node node)
@@ -461,8 +439,6 @@ public class Collator
 	 *
 	 * @param pathName  the path and file name to the file to process.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	 **/
 	public Document parse(String pathName) 
@@ -493,8 +469,6 @@ public class Collator
 	 *
 	 * @param stream	the {@link InputStream} pointing to the document to parse.
 	 *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	 **/
     public Document parse(InputStream stream)  
@@ -529,8 +503,6 @@ public class Collator
     * @param base     the base path to prepent to the authority/path portion of the resourceID.
     * @param resourceID   The resourceID to parse and munge.
     *
-	 * @author Todd King
-	 * @author UCLA/IGPP
 	 * @since           1.0
 	**/
 	public String makeResourcePath(String base, String resourceID)

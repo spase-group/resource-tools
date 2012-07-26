@@ -1,0 +1,2190 @@
+Validation for VMO
+
+
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Prognoz7/MAG/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Prognoz6/MAG/PT10S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Samba/ASPOC/PrimeParameter/PT4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/ASPOC/PrimeParameter/PT4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Samba/EDI/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/EDI/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Samba/WHISPER/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/WHISPER/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Samba/RAPID/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/RAPID/PrimeParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/DWP/PrimeParameter/PT4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Samba/CIS/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/CIS/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Samba/PEACE/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/PEACE/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Samba/FGM/UnvalidatedParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/FGM/UnvalidatedParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/FGM/SpinResolution/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Samba/STAFF/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/STAFF/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Samba/EFW/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Samba/EFW/PrimeParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IMP8/PLS/PT01M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IMP8/Ephemeris/PT12M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IMP8/MAG/PT15.36S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IMP8/MAG/PT0.32S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IMP8/Propagated/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE2/LANG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE2/BVEFI/DC/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE2/BVEFI/MATRIX/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE2/VEFI/DCA/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE2/VEFI/Ni.Vi.Ti/PT2S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE2/VEFI/AC/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE2/VEFI/Ni/PT0.016S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE2/MAGB/PT0.062S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE2/IDM/PT0.25S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/CRRES/Ephemeris/PT5M.xml
+   [INVALID] ID: spase://SMWG/Instrument/CRRES/PWE
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/CRRES/PWE/PT8S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/CRRES/LPI/PT30S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/CRRES/MAG/PT2S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/CRRES/MAG/PT30S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/TWINS1/Ephemeris/PT1M45S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/TWINS1/Imager/L1.PT15M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/Ephemeris/PT10M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/MGF/PT64S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/MGF/EDB.PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/MGF/PT15S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/MGF/EDA.PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/CPI/kp_PT64S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/CPI/HPA_PT64S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/CPI/SWA_PT48S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/LEP/EDB.PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/LEP/EDA.PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Geotail/Propagated/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/AMPTE_CCE/MFE/PT5.83S.xml
+   [INVALID] ID: spase://SMWG/Observatory/MEASURE/MEASURE.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/MEASURE/Bullcreek.Observatory/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/MEASURE/MEASURE.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/MEASURE/Clarkson.University/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/MEASURE/MEASURE.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/MEASURE/Applied.Physics.Lab/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/MEASURE/MEASURE.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/MEASURE/Grafton.Test.Facility/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/MEASURE/MEASURE.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/MEASURE/Darksky.Observatory/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/MEASURE/MEASURE.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/MEASURE/Millstone.Hill/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/MEASURE/MEASURE.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/MEASURE/University.of.South.Carolina/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/MEASURE/MEASURE.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/MEASURE/Jacksonville.University/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1997/SOPA/PT60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1997/SOPA/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1997/MPA/PT87S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1997/MPA/PT87S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL2002/MPA/PT87S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/2002/MPA/PT87S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1989/SOPA/PT60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1989/SOPA/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1989/MPA/PT87S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1989/MPA/PT87S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1990/SOPA/PT60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1990/SOPA/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1990/MPA/PT87S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1990/MPA/PT87S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1991/SOPA/PT60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1991/SOPA/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1991/MPA/PT87S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1991/MPA/PT87S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1994/SOPA/PT60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1994/SOPA/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL1994/MPA/PT87S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/1994/MPA/PT87S.xml
+   [INVALID] ID: spase://VMO/NumericalData/LANL/LANL2001/MPA/PT87S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/LANL/2001/MPA/PT87S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/IMP8/PLS/Propagated.PLS/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/IMP8/PLS/Propagated.PLS/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/IMP8/PLS/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/IMP8/PLS/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/IMP8/MAG/Propagated.PLS/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/IMP8/MAG/Propagated.PLS/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/IMP8/MAG/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/IMP8/MAG/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/IMP8/TAP/Propagated.PLS/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/MGF/Propagated.CPI/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/MGF/Propagated.CPI/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/MGF/Propagated.LEP/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/MGF/Propagated.LEP/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/MGF/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/MGF/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/CPI/Propagated.CPI/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/CPI/Propagated.CPI/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/CPI/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/CPI/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/LEP/Propagated.LEP/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/LEP/Propagated.LEP/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/LEP/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/LEP/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/TAP/Propagated.CPI/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Geotail/TAP/Propagated.LEP/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE1/MAG/Propagated.FPE/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE1/MAG/Propagated.FPE/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE1/MAG/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE1/MAG/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE1/TAP/Propagated.FPE/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE1/FPE/Propagated.FPE/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE1/FPE/Propagated.FPE/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE1/FPE/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE1/FPE/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE2/MAG/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE2/MAG/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE2/FPE/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE2/FPE/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Interball-1/CORALL/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Interball-1/CORALL/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Interball-1/FGMI/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Interball-1/FGMI/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/3DP/Propagated.3DP/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/3DP/Propagated.3DP/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/3DP/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/3DP/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/SWE/Propagated.SWE/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/SWE/Propagated.SWE/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/SWE/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/SWE/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/TAP/Propagated.3DP/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/MFI/Propagated.3DP/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/MFI/Propagated.3DP/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/MFI/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/Wind/MFI/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE3/SWP/Propagated.SWP/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE3/SWP/Propagated.SWP/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE3/SWP/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE3/SWP/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE3/MAG/Propagated.SWP/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE3/MAG/Propagated.SWP/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE3/MAG/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE3/MAG/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ISEE3/TAP/Propagated.SWP/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ACE/SWEPAM/Propagated.SWEPAM/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ACE/SWEPAM/Propagated.SWEPAM/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ACE/SWEPAM/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ACE/SWEPAM/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ACE/TAP/Propagated.SWEPAM/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ACE/MFI/Propagated.SWEPAM/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ACE/MFI/Propagated.SWEPAM/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ACE/MFI/Processed/GSE/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Weygand/ACE/MFI/Processed/GSM/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/FAST/Ephemeris/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/OMNI/PT5M.xml
+   [INVALID] ID: spase://SMWG/Instrument/GOES11/SEM
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/OMNI/P27D.xml
+   [INVALID] ID: spase://SMWG/Instrument/GOES11/SEM
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/OMNI/P1D.xml
+   [INVALID] ID: spase://SMWG/Instrument/GOES11/SEM
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/OMNI/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/OMNI/PT1M.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Salsa/ASPOC/PrimeParameter/PT4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/ASPOC/PrimeParameter/PT4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Salsa/EDI/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/EDI/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Salsa/WHISPER/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/WHISPER/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Salsa/RAPID/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/RAPID/PrimeParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/DWP/PrimeParameter/PT4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Salsa/CIS/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/CIS/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Salsa/PEACE/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/PEACE/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Salsa/FGM/UnvalidatedParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/FGM/UnvalidatedParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/FGM/SpinResolution/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Salsa/STAFF/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/STAFF/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Salsa/EFW/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Salsa/EFW/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/ASPOC/PrimeParameter/PT4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/ASPOC/PrimeParameter/PT4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/EDI/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/EDI/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/WHISPER/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/WHISPER/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/WBD/PrimeParameter/PT0.02S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/WBD/PrimeParameter/PT0.02S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/RAPID/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/RAPID/PrimeParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/DWP/PrimeParameter/PT4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/CIS/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/CIS/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/PEACE/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/PEACE/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/FGM/UnvalidatedParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/FGM/UnvalidatedParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/FGM/SpinResolution/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/STAFF/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/STAFF/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Rumba/EFW/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Rumba/EFW/PrimeParameter/4S.xml
+   [INVALID] ID: spase://SMWG/Observatory/AUGSBURG/AUGSBURG.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/AUGSBURG/Halley.Bay/SearchCoil/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/AUGSBURG/AUGSBURG.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/AUGSBURG/BAS.A80/SearchCoil/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/AUGSBURG/AUGSBURG.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/AUGSBURG/South.Pole/SearchCoil/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/AUGSBURG/AUGSBURG.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/AUGSBURG/BAS.A84/SearchCoil/PT0.5S.xml
+   [INVALID] ID: spase://SMWG/Observatory/AUGSBURG/AUGSBURG.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/AUGSBURG/BAS.A81/SearchCoil/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ICESTAR/McMurdo/Riometer/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ICESTAR/McMurdo/Photometer/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ICESTAR/McMurdo/Magnetometer/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ICESTAR/South.Pole/Riometer/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ICESTAR/South.Pole/Photometer/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ICESTAR/South.Pole/Magnetometer/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ICESTAR/AGO.P6/Riometer/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ICESTAR/AGO.P5/Riometer/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/McMAC/Lyford/Magnetometer/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/McMAC/Worthington/Magnetometer/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/McMAC/Linares/Magnetometer/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/McMAC/Glyndon/Magnetometer/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/McMAC/Purcell/Magnetometer/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/McMAC/Americus/Magnetometer/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/McMAC/Bennington/Magnetometer/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/McMAC/Richardson/Magnetometer/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/McMAC/San.Antonio/Magnetometer/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/SCM/PT0.125S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/MOM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/Ephemeris/PT01M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/FBK/PT4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/ESA.FGM/PT96S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/FFT/PT0.0556S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-C/Fits/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/Fits/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/EFI/PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-C/FGM/PT0.0078125S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/FGM/PT0.0078125S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-C/ESA/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/ESA/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/C/SST/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/SCM/PT0.125S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/MOM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/Ephemeris/PT01M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/FBK/PT4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/FFT/PT0.0556S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-A/Fits/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/Fits/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/EFI/PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-A/FGM/PT0.0078125S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/FGM/PT0.0078125S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-A/ESA/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/ESA/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/A/SST/PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Clyde.River/Magnetometer/PT0.5S
+   [INVALID] ID: spase://SMWG/Person/Erik.S.Steinmetz
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Clyde.River/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Clyde.River/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Maniitsoq/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Maniitsoq/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Maniitsoq/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Dombas/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Dombas/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Dombas/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Repulse.Bay/Magnetometer/PT0.5S
+   [INVALID] ID: spase://SMWG/Person/Erik.S.Steinmetz
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Repulse.Bay/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Repulse.Bay/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/FYTS/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/FYTS/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/UKIA/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/UKIA/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/HOTS/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/HOTS/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/LOYS/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/LOYS/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/SWNO/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/SWNO/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/RMUS/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/RMUS/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/PINE/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/PINE/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/PTRS/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/PTRS/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/DRBY/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/DRBY/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/CCNV/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/CCNV/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-EPO/BMLS/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-EPO/BMLS/MAG/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Tasiilaq/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Tasiilaq/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Tasiilaq/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Upernavik/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Upernavik/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Upernavik/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Longyearbyen/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Longyearbyen/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Longyearbyen/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Donna/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Donna/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Donna/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Daneborg/Magnetometer/PT20S
+   [INVALID] ID: spase://SMWG/Person/Hans.Gleisner
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Daneborg/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Daneborg/Magnetometer/PT20S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Gjoa.Haven/Magnetometer/PT0.5S
+   [INVALID] ID: spase://SMWG/Person/Erik.S.Steinmetz
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Gjoa.Haven/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Gjoa.Haven/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Jackvik/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Jackvik/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Jackvik/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Soroya/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Soroya/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Soroya/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Kangerlussuaq/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Kangerlussuaq/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Kangerlussuaq/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Tristan.da.Cunha/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Tristan.da.Cunha/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Tristan.da.Cunha/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Karmoy/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Karmoy/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Karmoy/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Nord/Magnetometer/PT20S
+   [INVALID] ID: spase://SMWG/Person/Hans.Gleisner
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Nord/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Nord/Magnetometer/PT20S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Pangnirtung/Magnetometer/PT0.5S
+   [INVALID] ID: spase://SMWG/Person/Erik.S.Steinmetz
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Pangnirtung/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Pangnirtung/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Ittoqqortoormiit/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Ittoqqortoormiit/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Ittoqqortoormiit/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Brorfelde/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Brorfelde/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Brorfelde/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Bjornoya/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Bjornoya/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Bjornoya/Magnetometer/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/ASK/PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Qaanaaq/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Qaanaaq/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Qaanaaq/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Savissivik/Magnetometer/PT20S
+   [INVALID] ID: spase://SMWG/Person/Hans.Gleisner
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Savissivik/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Savissivik/Magnetometer/PT20S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Romo/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Romo/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Romo/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/CANMAG/FSIM/MAG/PT0.5S
+   [INVALID] URL: http://portal.cssdp.ca:8080/ssdp/jsp/logon.jsp
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/FSIM/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/FSIM/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/FSIM/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/CANMAG/GILL/MAG/PT0.5S
+   [INVALID] URL: http://portal.cssdp.ca:8080/ssdp/jsp/logon.jsp
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/GILL/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/GILL/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/GILL/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/CANMAG/ATHA/MAG/PT0.5S
+   [INVALID] URL: http://portal.cssdp.ca:8080/ssdp/jsp/logon.jsp
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/ATHA/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/ATHA/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/ATHA/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/CANMAG/FSMI/MAG/PT0.5S
+   [INVALID] URL: http://portal.cssdp.ca:8080/ssdp/jsp/logon.jsp
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/FSMI/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/FSMI/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/FSMI/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/CANMAG/RANK/MAG/PT0.5S
+   [INVALID] URL: http://portal.cssdp.ca:8080/ssdp/jsp/logon.jsp
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/RANK/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/RANK/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/RANK/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/CANMAG/SNKQ/MAG/PT0.5S
+   [INVALID] URL: http://portal.cssdp.ca:8080/ssdp/jsp/logon.jsp
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/SNKQ/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/SNKQ/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/SNKQ/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/CANMAG/PINA/MAG/PT0.5S
+   [INVALID] URL: http://portal.cssdp.ca:8080/ssdp/jsp/logon.jsp
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/PINA/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/PINA/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/CANMAG/PINA/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Danmarkshavn/Magnetometer/PT20S
+   [INVALID] ID: spase://SMWG/Person/Hans.Gleisner
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Danmarkshavn/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Danmarkshavn/Magnetometer/PT20S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Rorvik/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Rorvik/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Rorvik/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Uummannaq/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Uummannaq/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Uummannaq/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Narsarsuaq/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Narsarsuaq/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Narsarsuaq/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Qeqertarsuaq/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Qeqertarsuaq/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Qeqertarsuaq/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Tromso/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Tromso/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Tromso/Magnetometer/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/TALO/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/TALO/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/TPAS/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/TPAS/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/TPAS/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/TPAS/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/EKAT/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/EKAT/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/EKAT/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/EKAT/ASI/thumb_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/YKNF/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/YKNF/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/KIAN/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/KIAN/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/KIAN/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/KIAN/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/KAPU/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/KAPU/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/KAPU/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/KAPU/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/GBAY/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/GBAY/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/GBAY/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/GBAY/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/PGEO/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/PGEO/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/PGEO/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/PGEO/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/CHBG/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/CHBG/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/CHBG/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/CHBG/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/KUUJ/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/KUUJ/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/KUUJ/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/KUUJ/ASI/thumb_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/SNAP/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/SNAP/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/INUV/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/INUV/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/INUV/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/INUV/ASI/thumb_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/NRSQ/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/NRSQ/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/MCGR/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/MCGR/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/MCGR/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/MCGR/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-Ground/UCLA-GBO/WHIT/MAG/PT0.5S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/WHIT/MAG/PT0.5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/WHIT/ASI/full_PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/UCLA-GBO/WHIT/ASI/thumb_PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Attu/Magnetometer/PT20S
+   [INVALID] ID: spase://SMWG/Person/Hans.Gleisner
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Attu/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Attu/Magnetometer/PT20S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Nuuk/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Nuuk/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Nuuk/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Hopen/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Hopen/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Hopen/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Igloolik/Magnetometer/PT0.5S
+   [INVALID] ID: spase://SMWG/Person/Erik.S.Steinmetz
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Igloolik/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Igloolik/Magnetometer/PT0.5S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Paamiut/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Paamiut/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Paamiut/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Ny.Alesund/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Ny.Alesund/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Ny.Alesund/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Andenes/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Andenes/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Andenes/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Solund/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Solund/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Solund/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Nordkapp/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Nordkapp/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Nordkapp/Magnetometer/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS/Ground/Kullorsuaq/Magnetometer/PT60S
+   [INVALID] ID: spase://SMWG/Instrument/Ground/Kullorsuaq/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/Ground/Kullorsuaq/Magnetometer/PT60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/SCM/PT0.125S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/MOM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/Ephemeris/PT01M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/FBK/PT4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/ESA.FGM/PT96S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/FFT/PT0.0556S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-B/Fits/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/Fits/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/EFI/PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-B/FGM/PT0.0078125S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/FGM/PT0.0078125S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-B/ESA/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/ESA/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/B/SST/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/SCM/PT0.125S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/MOM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/Ephemeris/PT01M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/FBK/PT4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/FFT/PT0.0556S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-D/Fits/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/Fits/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/EFI/PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-D/FGM/PT0.0078125S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/FGM/PT0.0078125S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-D/ESA/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/ESA/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/D/SST/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/SCM/PT0.125S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/MOM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/Ephemeris/PT01M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/FBK/PT4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/FFT/PT0.0556S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-E/Fits/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/Fits/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/EFI/PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-E/FGM/PT0.0078125S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/FGM/PT0.0078125S.xml
+   [INVALID] ID: spase://VMO/NumericalData/THEMIS-E/ESA/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/ESA/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/THEMIS/E/SST/PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/Ephemeris/PT1M
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/Ephemeris/SummaryParameter/PT1M
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/Ephemeris/SummaryParameter/PT1M.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/ASPOC/SummaryParameter/PT1M
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/ASPOC/SummaryParameter/PT1M.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/EDI/SummaryParameter/60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/EDI/SummaryParameter/60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/WHISPER/SummaryParameter/60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/WHISPER/SummaryParameter/60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/RAPID/SummaryParameter/60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/RAPID/SummaryParameter/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/DWP/SummaryParameter/PT60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/CIS/SummaryParameter/60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/CIS/SummaryParameter/60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/PEACE/SummaryParameter/60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/PEACE/SummaryParameter/60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/FGM/UnvalidatedSummaryParameter/60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/FGM/UnvalidatedSummaryParameter/60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/FGM/SummaryParameter/60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/FGM/SummaryParameter/60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/STAFF/SummaryParameter/60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/STAFF/SummaryParameter/60S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2/EFW/SummaryParameter/60S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster/EFW/SummaryParameter/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ISEE1/VES/PT18S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ISEE1/MAG/PT4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ISEE1/MAG/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ISEE1/FPE/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ISEE1/FPE/PT24S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Cambridge/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/San.Gabriel.Dam/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Table.Mountain/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Southeast.Louisiana.University/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Jicamarca/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Boulder/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Teoloyucan/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Los.Alamos.National.Laboratory/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Crete/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Air.Force.Academy/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/IGPPLANL/Rapid.City/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ST5-155/MAG/v1_PT01S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/Ephemeris/PT01M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/TIDE/Level-zero.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/TIDE/H1_CDF.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/TIDE/H0_CDF.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/TIMAS/K2_PT192S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/TIMAS/H0_PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/TIMAS/K1_PT96S.xml
+   [INVALID] ID: spase://VHO/NumericalData/Wind/SWE/apbimax
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/TIMAS/H2_PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/UVI/K0_CDF.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/UVI/L1_CDF.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/POLAR/MFE/PT06S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ISEE2/MAG/PT4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ISEE2/MAG/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ISEE2/FPE/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ST5-224/MAG/v1_PT01S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Prognoz9/MAG/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Pilar/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Seddin/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Coimbra/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Potsdam/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Eyrewell/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Panagyurishte/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Sodankyla/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Livingston.Island/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/San.Fernando/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Dombas/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Port.Stanley/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Huancayo/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Canberra/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Hartland/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Patrony/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Vysokaya.Dubrava/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Trivandrum/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Gjoahavn/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Agincourt/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Hartebeesthoek/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Dourbes/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tsumeb/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Sabhawala/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Port.Moresby/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Ottawa/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Leirvogur/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Guangzhou/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Hatizyo/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Ebro/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Mould.Bay/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Gornotayezhnaya/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Chambon.La.Foret/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Baldwin/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Hornsund/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Valentia/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Victoria/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/St.Johns/PT1H.xml
+   [INVALID] ID: spase://SMWG/Instrument/IAGA/Ekaterinburg/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Ekaterinburg/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Bangui/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Mawson/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Macquarie.Island/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ABN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/KIR/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+   [INVALID] ID: spase://SMWG/Instrument/IAGA//Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/DST/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LIV/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SAB/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TNG/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/KNY/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/VIC/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LZH/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TRD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/NVS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BOU/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LRV/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/NRD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/KOU/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PET/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+   [INVALID] ID: spase://SMWG/Instrument/IAGA//Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/GJH/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/AQU/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ESK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/FUR/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BEL/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LQA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ABG/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MBO/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PIL/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LNP/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MNK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/RES/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/VAL/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MEA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TTB/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PPT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SIT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/DBN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MAW/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/AMS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CZT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/AAA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PAG/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TRW/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/VNA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HUA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ANN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/YAK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LOV/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/WNG/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PRU/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/STJ/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/YKC/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HLP/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+   [INVALID] ID: spase://SMWG/Instrument/IAGA//Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SGG/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CNB/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/VLA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/VSS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/GAS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/EIC/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CTO/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/WLH/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HRB/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LNN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BJI/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/FRN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/KAK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/DOB/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TAM/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BFE/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ASH/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PST/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PSM/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PMG/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/COI/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/EYR/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TEO/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/GNA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TRO/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BTV/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/POT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/FRD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/OTT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/THL/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BMT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CTA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SFS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/KOD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CLF/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/API/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/GZH/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/POD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/IQA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/VQS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LER/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ISK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TFS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PAF/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/KIV/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/AGN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/RSV/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HTY/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BDV/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TSU/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/NGK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/GUA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BAL/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/NEW/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/VLJ/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/PHU/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/FCC/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/AML/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/GDH/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MOS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/VOS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/DRV/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/EBR/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BSL/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TKT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/NUR/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HBK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BOX/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MUT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/KNZ/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MRN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+   [INVALID] ID: spase://SMWG/Instrument/IAGA//Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HKI/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ABK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MGD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/DOU/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TUC/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/FUQ/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ODE/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SNA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/YSS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TND/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HER/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TOO/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/IRT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SBA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HON/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SVD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SSH/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/DLR/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/AAE/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BLC/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/AIA/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+   [INVALID] ID: spase://SMWG/Instrument/IAGA//Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SZT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HAD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/NAQ/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MIR/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MCQ/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CCS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SJG/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MID/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/KZN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/KGD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MMB/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CBI/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SED/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CLH/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/WAT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TAN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ASC/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/HRN/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TOK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LVV/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ARS/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/WIT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/SOD/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/UJJ/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/GUI/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CBB/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ALE/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/LRM/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+   [INVALID] ID: spase://SMWG/Instrument/IAGA//Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/EKT/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/MBC/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/TIK/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BNG/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/THY/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/CMO/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/BRW/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ASP/PT1H.xml
+   [INVALID] ID: spase://SMWG/Repository/VMO
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/IAGA/ARC/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Watheroo/PT1H.xml
+   [INVALID] ID: spase://SMWG/Instrument/IAGA/Santa.Cruz.De.Tenerife/Magnetometer
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Santa.Cruz.De.Tenerife/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Yakutsk/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Chichijima/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Dymer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Voeikovo/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Cambridge.Bay/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Guam/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Papeete/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Ashkhabad/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/She.Shan/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Pruhonice/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Iqaluit/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Kodaikanal/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Yuzhno.Sakhalinsk/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Neumayer.Station.III/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Arctowski/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Paratunka/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Istanbul.Kandilly/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Yangi.Bazar/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Gauss.Station/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Cape.Town/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Novosibirsk/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Barrow/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Witteveen/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Toolangi/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Ujjain/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Baker.Lake/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Alice.Springs/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Nord/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Phutuy/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Arti/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Alma.Ata/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Berezniaki/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Learmonth/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Fort.Churchill.2/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Lvov/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tamanrasset/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Magadan/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Guimar/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Fuquene/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Fresno/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Godhavn/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Wilhelmshaven/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Saint.Maur/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/South.Georgia/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Dusheti/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Midway.2/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tihany/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Antananarivo/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Cheltenham/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Resolute.Bay/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Kiruna/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Wingst/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Vostok/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Brorfelde/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Yellowknife/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Lovo/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Ascension.Island/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/LAquila/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Boulder/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Hurbanovo/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Helsinki/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tangerang/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Krasnaya.Pakhra/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Alibag/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Val.Joyeux/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Nurmijarvi/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Batavia/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Sanae/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Annamalainagar/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tatuoca/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Lunping/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Rude.Skov/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tixie.Bay/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Mbour/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Teoloyucan/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Amberley/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Lerwick/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Bay.St.Louis/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Argentine.Island/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Apia/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Dumont.Durville/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Kanozan/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/La.Quiaca/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Easter.Island/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tromso/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/De.Bilt/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Vieques/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Furstenfeldbruck/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Hermanus/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Eskdalemuir/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Borok/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Thule.3/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Memambetsu/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Marion.Island/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tucson/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Alert/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Vassouras/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Podkamenaya.Tunguska/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Narssarssuaq/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Honolulu.1.2.3/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Newport/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Kanoya/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Lanzhou/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Martin.De.Vivies/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Sitka/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Meanook/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Del.Rio/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Mirny/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Muntinlupa/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Charters.Towers/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Fredericksburg/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Abinger/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Budkov/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Stepanovka/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Scott.Base/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tokyo/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Kourou/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Cape.Chelyuskin/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Trelew/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Gnangara/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Bei.Jing/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Belsk/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Hel/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Addis.Ababa/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Beijing.Ming.Tombs/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/College/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Crozet/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Zaimishche/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Minsk/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Niemegk/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/San.Juan.1.2.3/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Port.Aux.Francais/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Tondano/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Abisko/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Svalgaard/Kakioka/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/SECS/Magnetometer/EICS/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/SECS/Magnetometer/SECS/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Interball-1/FM3I/PT6S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar1/Ephemeris/SummaryParameters/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar1/HIA/SummaryParameters/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar1/HIA/PrimeParameters/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar1/PEACE/SummaryParameters/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar1/PEACE/PrimeParameters/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar1/FGM/SummaryParameters/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar1/FGM/PrimeParameters/4S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/Osorno/Magnetometer/PT1S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/Escudero/Magnetometer/PT1S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/Puerto.Natales/Magnetometer/PT1S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/Los.Cerrillos/Magnetometer/PT1S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/Valdivia/Magnetometer/PT1S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/Putre/Magnetometer/PT1S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/Punta.Arenas/Magnetometer/PT1S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/O.Higgins/Magnetometer/PT1S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/Antofagasta/Magnetometer/PT1S.xml
+   [INVALID] ID: spase://SMWG/Observatory/SAMBA/SAMBA.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/SAMBA/La.Serena/Magnetometer/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/SCATHA/summary.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/SCATHA/Ephemeris/PT1M.xml
+   [INVALID] ID: spase://SMWG/Observatory/Dst.Index.Logical
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Dst.Index/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/AMPTE_UKS/Plasma/SWI_PT5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/AMPTE_UKS/Plasma/FTR_PT5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/AMPTE_UKS/FGM/PT5S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pilar/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pilar/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kr.Pakhra/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kr.Pakhra/Magnetometer/PT1H/ASCII.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Qiongzhong/Magnetometer/PT1H.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Qiongzhong/Magnetometer/PT1H/ASCII.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tonghai/Magnetometer/PT1H.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tonghai/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ascension/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ascension/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ascension/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ascension/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Quetta/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Quetta/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Monte.Capellino/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Monte.Capellino/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Oasis/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Oasis/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Coimbra/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Coimbra/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dixon/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dixon/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dixon/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dixon/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Whiteshell/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Whiteshell/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eyrewell/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eyrewell/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eyrewell/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eyrewell/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Panagyurishte/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Panagyurishte/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sodankyla/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sodankyla/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sodankyla/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sodankyla/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Halley.Bay/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Halley.Bay/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Novokazalinsk/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Novokazalinsk/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Livingston.Island/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Livingston.Island/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Livingston.Island/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Livingston.Island/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Fernando/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Fernando/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Fernando/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Fernando/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Jarvis.Island/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Jarvis.Island/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dombas/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dombas/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dombas/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dombas/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Little.America/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Little.America/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hollandia/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hollandia/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kiev/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kiev/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tehran/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tehran/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Freetown/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Freetown/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Stanley/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Stanley/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Stanley/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Stanley/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nagpur/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nagpur/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Baguio/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Baguio/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Huancayo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Huancayo/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Huancayo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Huancayo/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Canberra/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Canberra/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Canberra/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Canberra/Magnetometer/PT1M/ASCII.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kashi/Magnetometer/PT1H.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kashi/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hartland/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hartland/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hartland/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hartland/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lwiro/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lwiro/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Patrony/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Patrony/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Patrony/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Patrony/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Trivandrum/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Trivandrum/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Zo.Se/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Zo.Se/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Castellaccio/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Castellaccio/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Agincourt/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Agincourt/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hartebeesthoek/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hartebeesthoek/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hartebeesthoek/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hartebeesthoek/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dourbes/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dourbes/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dourbes/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dourbes/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tsumeb/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tsumeb/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tsumeb/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tsumeb/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sabhawala/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sabhawala/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Moresby/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Moresby/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Pablo.Toledo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Pablo.Toledo/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Pablo.Toledo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Pablo.Toledo/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ottawa/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ottawa/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ottawa/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ottawa/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Leirvogur/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Leirvogur/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Leirvogur/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Leirvogur/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/V.Dubr/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/V.Dubr/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Surlari/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Surlari/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Surlari/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Surlari/Magnetometer/PT1M/ASCII.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Qianling/Magnetometer/PT1H.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Qianling/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Molodezhnaya/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Molodezhnaya/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guangzhou/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guangzhou/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guangzhou/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guangzhou/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hatizyo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hatizyo/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hatizyo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hatizyo/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Maputo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Maputo/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Maputo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Maputo/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ebro/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ebro/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ebro/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ebro/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mould.Bay/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mould.Bay/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mould.Bay/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mould.Bay/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mizusawa/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mizusawa/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Leningradskaya/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Leningradskaya/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Gornotayezhnaya/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Gornotayezhnaya/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hornsund/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hornsund/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hornsund/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hornsund/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Valentia/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Valentia/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Valentia/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Valentia/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Almeria/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Almeria/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Victoria/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Victoria/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Victoria/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Victoria/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Beijing/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Beijing/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Saint.Johns/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Saint.Johns/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Saint.Johns/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Saint.Johns/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Grahamstown/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Grahamstown/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bangui/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bangui/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bangui/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bangui/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mawson/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mawson/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mawson/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mawson/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Uppsala/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Uppsala/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Uppsala/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Uppsala/Magnetometer/PT1M/ASCII.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chengdu/Magnetometer/PT1H.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chengdu/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Shillong/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Shillong/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Macquarie.Island/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Macquarie.Island/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Macquarie.Island/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Macquarie.Island/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vannovskaya/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vannovskaya/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Watheroo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Watheroo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Swider/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Swider/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Yakutsk/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Yakutsk/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chichijima/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chichijima/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chichijima/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chichijima/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Phuthuy/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Phuthuy/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Phuthuy/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Phuthuy/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cambridge.Bay/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cambridge.Bay/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cambridge.Bay/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cambridge.Bay/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/MBour/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/MBour/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/MBour/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/MBour/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guam/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guam/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guam/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guam/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Norway.Station/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Norway.Station/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Charcot/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Charcot/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Karachi/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Karachi/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bar.Gyora/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bar.Gyora/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bar.Gyora/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bar.Gyora/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Thule/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Thule/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Thule/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Thule/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Zaymishche/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Zaymishche/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pruhonice/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pruhonice/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Changchun/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Changchun/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Iqaluit/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Iqaluit/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Iqaluit/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Iqaluit/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kodaikanal/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kodaikanal/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Luanda.Capelo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Luanda.Capelo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eilat/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eilat/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eilat/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eilat/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tahiti/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tahiti/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/South.Pole/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/South.Pole/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Arctowski/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Arctowski/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Arctowski/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Arctowski/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Yazhno.Sakhalinsk/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Yazhno.Sakhalinsk/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Paratunka/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Paratunka/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Shumagin/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Shumagin/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Shumagin/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Shumagin/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nairobi/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nairobi/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cape.Town/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cape.Town/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Barrow/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Barrow/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Barrow/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Barrow/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Martin.de.Vivies/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Martin.de.Vivies/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Martin.de.Vivies/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Martin.de.Vivies/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Witteveen/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Witteveen/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Penteli/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Penteli/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Misallat/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Misallat/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Misallat/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Misallat/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bereznyaki/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bereznyaki/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Toolangi/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Toolangi/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ujjain/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ujjain/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Aso/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Aso/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Baker.Lake/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Baker.Lake/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Baker.Lake/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Baker.Lake/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Jaipur/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Jaipur/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alice.Springs/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alice.Springs/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alice.Springs/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alice.Springs/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Davis/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Davis/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Davis/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Davis/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nampula/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nampula/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Davao/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Davao/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Arti/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Arti/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alma.Ata/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alma.Ata/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alma.Ata/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alma.Ata/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bear.Island/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bear.Island/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bear.Island/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bear.Island/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Manhay/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Manhay/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Manhay/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Manhay/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hyderabad/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hyderabad/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dumont.dUrville/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dumont.dUrville/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dumont.dUrville/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dumont.dUrville/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Learmonth/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Learmonth/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Learmonth/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Learmonth/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tamanrasset/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tamanrasset/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tamanrasset/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tamanrasset/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Magadan/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Magadan/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guimar/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guimar/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guimar/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Guimar/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fuquene/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fuquene/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fresno/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fresno/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fresno/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fresno/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Godhavn/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Godhavn/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Godhavn/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Godhavn/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fort.Churchill/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fort.Churchill/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fort.Churchill/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fort.Churchill/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/South.Georgia/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/South.Georgia/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dusheti/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dusheti/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cape.Wellen/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cape.Wellen/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kakadu/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kakadu/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kakadu/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kakadu/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Big.Delta/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Big.Delta/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tihany/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tihany/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tihany/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tihany/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Etaiyapuram/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Etaiyapuram/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wien.Kobenzl/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wien.Kobenzl/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Midway/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Midway/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Midway/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Midway/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Antananarivo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Antananarivo/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Antananarivo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Antananarivo/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cheltenham/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cheltenham/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Amatsia/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Amatsia/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kiruna/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kiruna/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kiruna/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kiruna/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wingst/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wingst/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wingst/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wingst/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vostok/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vostok/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vostok/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vostok/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Brorfelde/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Brorfelde/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Brorfelde/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Brorfelde/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Yellowknife/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Yellowknife/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Yellowknife/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Yellowknife/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Resolute/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Resolute/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Resolute/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Resolute/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Faraday.Islands/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Faraday.Islands/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Faraday.Islands/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Faraday.Islands/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Novolazarevskaya/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Novolazarevskaya/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pionerskaya/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pionerskaya/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Qsaybeh/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Qsaybeh/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Qsaybeh/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Qsaybeh/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lovo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lovo/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lovo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lovo/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Neumayer.Station/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Neumayer.Station/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Koror/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Koror/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/LAquila/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/LAquila/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/LAquila/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/LAquila/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Murchison.Bay/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Murchison.Bay/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Boulder/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Boulder/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Boulder/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Boulder/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hurbanovo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hurbanovo/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hurbanovo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hurbanovo/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Y.Basar/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Y.Basar/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sukkertoppen/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sukkertoppen/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tangerang/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tangerang/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Roburent/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Roburent/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alibag/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alibag/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alibag/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alibag/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pamatai/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pamatai/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pamatai/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pamatai/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eights/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eights/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Alfred/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Alfred/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Alfred/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.Alfred/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tikhaya.Bay/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tikhaya.Bay/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Val.Joyeux/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Val.Joyeux/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wuhan/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wuhan/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Byrd.Station/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Byrd.Station/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nurmijarvi/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nurmijarvi/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nurmijarvi/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nurmijarvi/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Moca/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Moca/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Voyeykovo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Voyeykovo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Price/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Price/Magnetometer/PT1H/ASCII.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Manzhouli/Magnetometer/PT1H.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Manzhouli/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sanae/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sanae/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Stonyhurst/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Stonyhurst/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Annamalainagar/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Annamalainagar/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tatuoca/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tatuoca/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lunping/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lunping/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lunping/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lunping/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Rude.Skov/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Rude.Skov/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Talara/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Talara/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tixie.Bay/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tixie.Bay/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tixie.Bay/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tixie.Bay/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Teoloyucan/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Teoloyucan/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Teoloyucan/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Teoloyucan/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Juan/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Juan/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Juan/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/San.Juan/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Amberley/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Amberley/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lerwick/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lerwick/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lerwick/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lerwick/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Heiss.Island/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Heiss.Island/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bay.St.Louis/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bay.St.Louis/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bay.St.Louis/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Bay.St.Louis/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nagycenk/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nagycenk/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nagycenk/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Nagycenk/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Grocka/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Grocka/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Grocka/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Grocka/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Apia/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Apia/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Apia/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Apia/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Narsarsuaq/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Narsarsuaq/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Narsarsuaq/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Narsarsuaq/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kanozan/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kanozan/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/La.Quiaca/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/La.Quiaca/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Easter.Island/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Easter.Island/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Minck/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Minck/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tromso/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tromso/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tromso/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tromso/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Podkamennaya/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Podkamennaya/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/De.Bilt/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/De.Bilt/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Esashi/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Esashi/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vieques/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vieques/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Glenlea/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Glenlea/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Glenlea/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Glenlea/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Furstenfeldbruck/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Furstenfeldbruck/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Furstenfeldbruck/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Furstenfeldbruck/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hermanus/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hermanus/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hermanus/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hermanus/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eskdalemuir/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eskdalemuir/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eskdalemuir/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Eskdalemuir/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Borok/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Borok/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Borok/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Borok/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Beloit/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Beloit/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Arkhangelsk/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Arkhangelsk/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Memambetsu/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Memambetsu/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Memambetsu/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Memambetsu/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Honolulu/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Honolulu/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Honolulu/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Honolulu/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Novosibirsk.Klyuch/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Novosibirsk.Klyuch/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Novosibirsk.Klyuch/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Novosibirsk.Klyuch/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tucson/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tucson/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tucson/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tucson/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Helwan/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Helwan/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alert/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alert/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alert/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Alert/Magnetometer/PT1M/ASCII.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Golmud/Magnetometer/PT1H.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Golmud/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vassouras/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vassouras/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vassouras/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Vassouras/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Anchorage/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Anchorage/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wilkes/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Wilkes/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Toledo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Toledo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Loparskoe/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Loparskoe/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.aux.Francais/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.aux.Francais/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.aux.Francais/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Port.aux.Francais/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sao.Miguel/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sao.Miguel/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Newport/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Newport/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Newport/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Newport/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Logrono/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Logrono/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kanoya/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kanoya/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kanoya/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kanoya/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lanzhou/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lanzhou/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lanzhou/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lanzhou/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sitka/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sitka/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sitka/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sitka/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Meanook/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Meanook/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Meanook/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Meanook/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Del.Rio/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Del.Rio/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Del.Rio/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Del.Rio/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Carrollton/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Carrollton/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mirny/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mirny/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mirny/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Mirny/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Simosato/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Simosato/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Muntinlupa/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Muntinlupa/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Charters.Towers/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Charters.Towers/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Charters.Towers/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Charters.Towers/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fredericksburg/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fredericksburg/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fredericksburg/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fredericksburg/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Plateau/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Plateau/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Abinger/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Abinger/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Budkov/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Budkov/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Budkov/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Budkov/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Stepanovka/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Stepanovka/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Scott.Base/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Scott.Base/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Scott.Base/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Scott.Base/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Great.Whale.River/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Great.Whale.River/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Characato/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Characato/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tomsk/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tomsk/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sapa/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Sapa/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lviv/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lviv/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lviv/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Lviv/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kourou/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kourou/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kourou/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kourou/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pondicherry/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Pondicherry/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Paramaribo/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Paramaribo/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cape.Chelyuskin/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Cape.Chelyuskin/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Casey/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Casey/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Casey/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Casey/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Trelew/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Trelew/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Trelew/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Trelew/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Gnangara/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Gnangara/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Gnangara/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Gnangara/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Belsk/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Belsk/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Belsk/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Belsk/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hel/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hel/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hel/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Hel/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Addis.Ababa/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Addis.Ababa/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Addis.Ababa/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Addis.Ababa/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tirunelveli/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tirunelveli/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Havana/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Havana/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Burlington/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Burlington/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Beijing.Ming.Tombs/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Beijing.Ming.Tombs/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Beijing.Ming.Tombs/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Beijing.Ming.Tombs/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Leadville/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Leadville/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Istanbul.Kandilli/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Istanbul.Kandilli/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Istanbul.Kandilli/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Istanbul.Kandilli/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/College/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/College/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/College/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/College/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dallas/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Dallas/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tuntungan/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tuntungan/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fanning/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Fanning/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Niemegk/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Niemegk/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Niemegk/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Niemegk/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Silchar/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Silchar/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chambon.la.Foret/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chambon.la.Foret/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chambon.la.Foret/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Chambon.la.Foret/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Visakhapatnam/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Visakhapatnam/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ibadan/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Ibadan/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Roi.Baudouin/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Roi.Baudouin/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tondano/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tondano/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tondano/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Tondano/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Abisko/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Abisko/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Abisko/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Abisko/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Las.Mesas/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Las.Mesas/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Poste.de.la.Baleine/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Poste.de.la.Baleine/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Poste.de.la.Baleine/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Poste.de.la.Baleine/Magnetometer/PT1M/ASCII.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Quanzhou/Magnetometer/PT1H.xml
+   [INVALID] ID: spase://SMWG/Person/Dong.mei.Yang
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Quanzhou/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kakioka/Magnetometer/PT1H.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kakioka/Magnetometer/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kakioka/Magnetometer/PT1H/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/WDC/Kakioka/Magnetometer/PT1M/ASCII.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Indices/Kp.Ap.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/AMPTE_IRM/Plasma/PT4.4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/AMPTE_IRM/MAG/PT4.4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Interball-Tail/Ephemeris/PT2M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE1/PWI/LFCPH/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE1/PWI/LFCA/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE1/PWI/DCEF/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE1/PWI/SFRA/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE1/PWI/SFRPH/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE1/PWI/LFCB/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE1/PWI/SFRB/PT1S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE1/MAGA/PT0.062S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DE1/MAGA/PT6S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Tango/ASPOC/PrimeParameter/PT4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/ASPOC/PrimeParameter/PT4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Tango/EDI/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/EDI/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Tango/WHISPER/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/WHISPER/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Tango/RAPID/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/RAPID/PrimeParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/DWP/PrimeParameter/PT4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Tango/CIS/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/CIS/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Tango/PEACE/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/PEACE/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Tango/FGM/UnvalidatedParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/FGM/UnvalidatedParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/FGM/SpinResolution/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Tango/STAFF/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/STAFF/PrimeParameter/4S.xml
+   [INVALID] ID: spase://VMO/NumericalData/Cluster2-Tango/EFW/PrimeParameter/4S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/Cluster-Tango/EFW/PrimeParameter/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar2/Ephemeris/SummaryParameters/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar2/PEACE/SummaryParameters/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar2/PEACE/PrimeParameters/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar2/FGM/SummaryParameters/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar2/FGM/PrimeParameters/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar2/LEID/SummaryParameters/60S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/DoubleStar2/LEID/PrimeParameters/4S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/Ephemeris/PD1.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/7/SEM/H/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/7/SEM/A/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/7/SEM/I/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/7/SEM/G/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/7/SEM/G/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/7/SEM/Z/PT5M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES/7/EPM/HighRes/PT3S
+   [INVALID] ID: spase://VMO/NumericalData/GOES7/EPM/HighRes/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/7/EPM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/7/MAG/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/12/SEM/H/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/12/SEM/A/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/12/SEM/I/PT5M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES/12/SEM/PT5M
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/12/SEM/G/PT5M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES/12/SEM/PT1M
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/12/SEM/G/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/12/SEM/Z/PT5M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES12/MAG/PT0.512S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/12/MAG/PT0.512S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/6/SEM/H/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/6/SEM/A/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/6/SEM/I/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/6/SEM/G/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/6/SEM/G/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/6/SEM/Z/PT5M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES/6/EPM/HighRes/PT3S
+   [INVALID] ID: spase://VMO/NumericalData/GOES6/EPM/HighRes/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/6/EPM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/6/MAG/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/8/SEM/H/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/8/SEM/A/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/8/SEM/I/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/8/SEM/G/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/8/SEM/G/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/8/SEM/Z/PT5M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES8/MAG/PT1M
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/8/MAG/PT1M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES/3/EPM/HighRes/PT3S
+   [INVALID] ID: spase://VMO/NumericalData/GOES3/EPM/HighRes/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/3/EPM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/3/MFM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/9/SEM/H/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/9/SEM/A/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/9/SEM/I/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/9/SEM/G/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/9/SEM/G/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/9/SEM/Z/PT5M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES9/MAG/PT1M
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/9/MAG/PT1M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES/1/EPM/HighRes/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/1/EPM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/1/MFM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/11/SEM/H/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/11/SEM/A/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/11/SEM/I/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/11/SEM/G/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/11/SEM/G/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/11/SEM/Z/PT5M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES11/MAG/PT0.512S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/11/MAG/PT0.512S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/5/SEM/A/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/5/SEM/I/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/5/SEM/G/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/5/SEM/G/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/5/SEM/Z/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/5/MAG/PT3S.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES/5/EPS/HighRes/PT3S
+   [INVALID] ID: spase://VMO/NumericalData/GOES5/EPS/HighRes/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/5/EPS/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/10/SEM/H/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/10/SEM/A/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/10/SEM/I/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/10/SEM/G/PT5M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/10/SEM/G/PT1M.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/10/SEM/Z/PT5M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES10/MAG/PT0.512S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/10/MAG/PT0.512S.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES10/MAG/PT1M
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/10/MAG/PT1M.xml
+   [INVALID] ID: spase://VMO/NumericalData/GOES/2/EPM/HighRes/PT3S
+   [INVALID] ID: spase://VMO/NumericalData/GOES2/EPM/HighRes/PT3S
+[FAILED] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/2/EPM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/GOES/2/MFM/PT3S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/ST5-094/MAG/v1_PT01S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/TWINS2/Ephemeris/PT1M45S.xml
+[OK] /var/www/spase.dev/metadata/VMO/NumericalData/TWINS2/Imager/L1.PT15M.xml
+[OK] /var/www/spase.dev/metadata/VMO/Catalog/BS_IMP8.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/McMurdo/ICESTAR.Dayplot.Overview/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/McMurdo/ICESTAR.Dayplot.Riogram/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/Gakona/ICESTAR.Dayplot.dB/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/Gakona/ICESTAR.Dayplot.Riogram/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/Gakona/ICESTAR.Dayplot.Voltage/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/Iqaluit/ICESTAR.Dayplot.Riogram/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/South.Pole/ICESTAR.Dayplot.Magnetometers/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/South.Pole/ICESTAR.Dayplot.Fluxgate/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/South.Pole/ICESTAR.Dayplot.Riometers/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/South.Pole/ICESTAR.Dayplot.RiometersVLF/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/South.Pole/ICESTAR.Dayplot.Overview/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/South.Pole/ICESTAR.Dayplot.Riogram/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P6/ICESTAR.Dayplot.Overview/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P6/ICESTAR.Dayplot.Riogram/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P5/ICESTAR.Dayplot.IRIS/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P5/ICESTAR.Dayplot.Magnetometers/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P5/ICESTAR.Dayplot.Searchcoil/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P5/ICESTAR.Dayplot.Fluxgate/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P5/ICESTAR.Dayplot.Overview/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P5/ICESTAR.Dayplot.Riogram/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P3/ICESTAR.Dayplot.Overview/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P3/ICESTAR.Dayplot.Riogram/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P2/ICESTAR.Dayplot.IRIS/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P2/ICESTAR.Dayplot.Magnetometers/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P2/ICESTAR.Dayplot.Searchcoil/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P2/ICESTAR.Dayplot.Fluxgate/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P2/ICESTAR.Dayplot.Overview/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P2/ICESTAR.Dayplot.Riogram/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P4/ICESTAR.Dayplot.Overview/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P4/ICESTAR.Dayplot.Riogram/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P1/ICESTAR.Dayplot.IRIS/PT12S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P1/ICESTAR.Dayplot.Magnetometers/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P1/ICESTAR.Dayplot.Searchcoil/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P1/ICESTAR.Dayplot.Fluxgate/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P1/ICESTAR.Dayplot.Overview/PT10S.xml
+[OK] /var/www/spase.dev/metadata/VMO/DisplayData/ICESTAR/AGO.P1/ICESTAR.Dayplot.Riogram/PT12S.xml
