@@ -14,5 +14,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/spase-model-1.0.5.jar"/>
 	<classpathentry kind="lib" path="lib/igpp-xml-1.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/json-0.0.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

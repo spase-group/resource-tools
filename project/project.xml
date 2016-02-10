@@ -4,11 +4,13 @@
    See "build.xml" for how each property influences the build.
 -->
 <project name="project-config" basedir="." default="...">
-    <property name="version"        value="2.0.2" />
-    <property name="package.title"  value="SPASE Tools" />
-    <property name="package.name" value="spase-tools" />
+    <property name="version"        value="2.0.3" />
+    <property name="package.title"  value="SPASE Resources Tools" />
+    <property name="package.name" value="spase-resource-tools" />
+    <property name="package.base"   value="org.spase.tools"/>
     <property name="package.vendor" value="UCLA/IGPP" />
-    <property name="copyright"    value="Copyright &#169; 2008-2009 Regents University of California. All Rights Reserved." />
+    <property name="package.command" value="spase-tools"/>
+    <property name="copyright"    value="Copyright &#169; 2008-2016 Regents University of California. All Rights Reserved." />
     <property name="main-class"   value="org.spase.tools.App" />
 
     <property name="library.jar"  value="/projects/jar" />

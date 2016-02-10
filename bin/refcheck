@@ -11,4 +11,4 @@ THIS_DIR=`dirname $0`
 # Executes tool
 # Arguments are passed in to the tool via '$@'
 
-java -Djava.ext.dirs=${THIS_DIR}/jar org.spase.tools.RefCheck "$@"
+java -Djava.ext.dirs=${THIS_DIR}/jar org.spase.tools.Refcheck "$@"

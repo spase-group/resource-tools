@@ -1,0 +1,15 @@
+blockquote {
+	margin-left: 3em;
+}
+
+blockquote code {
+	margin-left: 0;
+}
+
+code {
+	color: red;
+	margin-left: 3em;
+	background-color: grey;
+	border:1px solid black;
+}
+

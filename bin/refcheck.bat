@@ -13,5 +13,5 @@ set THIS_DIR=%~dp0
 :: to be passed into the executable.
 
 echo %THIS_DIR%
-java -Djava.ext.dirs=%THIS_DIR%jar org.spase.tools.RefCheck %*
+java -Djava.ext.dirs=%THIS_DIR%jar org.spase.tools.Refcheck %*
 :END

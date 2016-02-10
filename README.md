@@ -1,16 +1,17 @@
 org.spase.tools
 ======
 
-Collection of tools for procesisng and using SPASE description and SPASE services.
+Collection of tools for processing and using SPASE description and SPASE services.
 
-- org.spase.tools.Collator</dt><dd>Separate each SPASE resource description in a file into a separate file stored in a folder tree according to the Resource ID.
-- org.spase.tools.Downloader</dt><dd>Obtains a list of URLs associated with a resource by querying a registry server, then downloads and packages all the source files. The collection of files is packaged into a zip file and written to the output file.
-- org.spase.tools.Profiler</dt><dd>Create resource profiles for SPASE resource descriptions. Profiles all have a common schema which can be used in a solr search engine.
-- org.spase.tools.RefCheck</dt><dd>SPASE Resource Description reference checker. Can check both resource identifiers and URLs for referential integrity.
-- org.spase.tools.XMLGrep</dt><dd>XML Parser, XPath generator and search tool.
+<dt>org.spase.tools.Collator</dt><dd>Separate each SPASE resource description in a file into a separate file stored in a folder tree according to the Resource ID.</dd>
+<dt>org.spase.tools.Downloader</dt><dd>Obtains a list of URLs associated with a resource by querying a registry server, then downloads and packages all the source files. The collection of files is packaged into a zip file and written to the output file.</dd>
+<dt>org.spase.tools.Profiler</dt><dd>Create resource profiles for SPASE resource descriptions. Profiles all have a common schema which can be used in a solr search engine.</dd>
+<dt>org.spase.tools.RefCheck</dt><dd>SPASE Resource Description reference checker. Can check both resource identifiers and URLs for referential integrity.</dd>
+<dt>org.spase.tools.Validator</dt><dd>Validate a SPASE resource description using a specified version of the data dictionary.</dd>
+<dt>org.spase.tools.XMLGrep</dt><dd>XML Parser, XPath generator and search tool.</dd>
 
 
-See "LICENSE.TXT" for important licensing nformation.
+See "LICENSE.TXT" for important licensing information.
 
 # Build/Installation
 

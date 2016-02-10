@@ -1,0 +1,104 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>${options.base}</title>
+    <meta name="author" content="Todd King" />
+    <meta http-equiv="Content-Language" content="en" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="template.js"> </script>
+    <script type="text/javascript" src="sidebar.js"> </script>
+   </head>
+   <body>
+<div class="container">
+   <script>header();</script>
+   <script>sidebar();</script>
+   <div class="span9 content">
+      <div class="alert alert-success">
+         <strong>Version: ${options.version}</strong>.
+      </div>
+      
+      <h1><a name="About">About ${options.base}</a></h1>
+      <p>
+      The ${options.package} Toolkit contains a set of command-line applications which can be used to 
+      generate, validate, referentially check, use and organize resource descriptions written in SPASE XML. 
+      </p>
+   
+      <h1><a name="Requirements">System Requirements</a></h1>
+      <p>
+       The ${options.package} toolkit was developed using Java and will run on any platform with a supported 
+       Java Runtime Environment (JRE). Any required extensions are included in the SPASE toolkit installation package. 
+       The toolkit is packaged as a self-contained executable "jar" file. The software was specifically developed under 
+       Java version 1.6 and has only been tested with this version. You can determine which version of Java you are running
+       with the command:
+       <div class="code">
+          <pre>% java -version</pre>
+          <pre>java version "1.6.0_26"</pre>
+          <pre>Java(TM) SE Runtime Environment (build 1.6.0_26-b03-384-10M3425)</pre>
+          <pre>Java HotSpot(TM) 64-Bit Server VM (build 20.1-b02-384, mixed mode)</pre>
+       </div>
+      </p>
+      
+      <h1><a name="Unpacking">Unpacking the Package</a></h1>
+      <p><a href="${options.package}-${options.version}.zip">Download</a> the <i>${options.base}</i> package from the IGPP 
+      	<a class="externalLink" href="http://release.igpp.ucla.edu/spase/tools/" target="_blank">web site</a> site.  
+      	The installation directory may vary from environment to environment but in UNIX-based environments 
+      	it is typical to install software packages in the <i>/usr/local</i> directory and in Windows-based 
+      	environments it is typical to install software packages in the <i>C:\Program Files</i> directory. 
+      	Unpack the selected binary distribution file with the following command:
+      </p>
+      <div class="code">
+          <pre>% unzip ${options.package}-${options.version}.zip</pre>
+      </div>
+      <p>The unzip will result in the creation of the <i>${options.package}-${options.version}</i> directory 
+      	with the following directory structure:
+      </p>
+      <ul>
+        <li><b>README.txt</b><br/>
+          <p>A README file directing the user to the available documentation for the project.
+          </p>
+        </li>
+        <li><b>LICENSE.txt</b><br/>
+          <p>The copyright notice from the <a class="externalLink" href="http://regents.universityofcalifornia.edu//" target="_blank">Regents of the University of California</a> 
+          detailing the restrictions regarding the use and distribution of this software. Although the license is strictly 
+          worded, the software has been classified as Technology and Software Publicly Available (TSPA) and is available 
+          for <i>anyone</i> to download and use.
+          </p>
+        </li>
+        <li><b>bin/</b><br/>
+          <p>This directory contains batch and shell scripts for executing the tool.
+          </p>
+        </li>
+        <li><b>doc/</b><br/>
+          <p>This directory contains a local web site with documentation, api javadoc, and other related information.
+          Just point the desired web browser to the <i>index.html</i> file in this directory.
+          </p>
+        </li>
+        <li><b>examples/</b><br/>
+          <p>This directory contains examples of using the tool.
+          </p>
+        </li>
+        <li><b>lib/</b><br/>
+          <p>This directory contains the dependent jar files for the tool along with the executable jar file 
+          (${options.package}-${options.version}.jar) containing the igpp.docgen tool software.
+          </p>
+        </li>
+      </ul>
+    
+      <h1><a name="Using">Using the Tools</a></h1>
+      <p>
+      Shell scripts to run the tools are in the "bin" directory in the distribution. You can run the tool on a 
+      Linux system with the command:
+         <div class="code">
+            <pre>% ${options.command}</pre>
+         </div>
+      or on a Windows system with the command:
+         <div class="code">
+            <pre>% ${options.command}.bat</pre>
+         </div>
+      Full documentation for the tool can be found <a href="guide/${options.package}-${options.version}.pdf">here</a>.
+      </p>
+   </div><!-- span -->
+<script>footer();</script>
+</div><!-- container -->
+</body>
+</html>
